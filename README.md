@@ -1,11 +1,13 @@
+# 論文執筆用BiBTeXエントリ
 
+研究室での論文執筆において共通で必要となりそうなbibtexエントリです．
 
 ファイル
 - lab-common.bib：共通して引用しそうな論文
 - lab-paper.bib：研究室で発表した論文
 
 
-# BibTeXエントリの書き方
+## BibTeXエントリの書き方
 
 - 以下をアンダースコアでつなげる
   - First authorのfamily name（Smith, Kobayashiなど）
