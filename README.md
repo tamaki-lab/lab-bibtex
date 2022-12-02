@@ -1,16 +1,17 @@
 - [1. 論文執筆用 BiBTeX エントリ](#1-論文執筆用-bibtex-エントリ)
   - [1.1. ファイル](#11-ファイル)
-  - [1.2. BibTeX エントリの書き方](#12-bibtex-エントリの書き方)
-  - [1.3. 探し方](#13-探し方)
-    - [1.3.1. CVPR, ICCV, WACV](#131-cvpr-iccv-wacv)
-    - [1.3.2. arXiv](#132-arxiv)
-    - [1.3.3. IEEE 論文の場合](#133-ieee-論文の場合)
-    - [1.3.4. Springer 論文の場合](#134-springer-論文の場合)
-    - [1.3.5. DBLP](#135-dblp)
-    - [1.3.6. ACM digital library](#136-acm-digital-library)
-    - [1.3.7. NIPS, NeurIPS の場合](#137-nips-neurips-の場合)
-    - [1.3.8. BMVC の場合](#138-bmvc-の場合)
-    - [1.3.9. web の記事](#139-web-の記事)
+    - [1.1.1. BibTeX エントリの書き方](#111-bibtex-エントリの書き方)
+  - [1.2. 探し方](#12-探し方)
+    - [1.2.1. CVPR, ICCV, WACV](#121-cvpr-iccv-wacv)
+    - [1.2.2. arXiv](#122-arxiv)
+    - [1.2.3. IEEE 論文の場合](#123-ieee-論文の場合)
+    - [1.2.4. Springer 論文の場合](#124-springer-論文の場合)
+    - [1.2.5. DBLP](#125-dblp)
+    - [1.2.6. ACM digital library](#126-acm-digital-library)
+    - [1.2.7. NIPS, NeurIPS の場合](#127-nips-neurips-の場合)
+    - [1.2.8. BMVC の場合](#128-bmvc-の場合)
+    - [1.2.9. web の記事](#129-web-の記事)
+    - [1.2.10. github リポジトリ](#1210-github-リポジトリ)
 
 # 1. 論文執筆用 BiBTeX エントリ
 
@@ -21,7 +22,7 @@
 - lab-paper.bib：研究室で発表した論文
 - \*\*\*.bib：その他論文
 
-## 1.2. BibTeX エントリの書き方
+### 1.1.1. BibTeX エントリの書き方
 
 - 以下をアンダースコアでつなげる
   - First author の family name（Smith, Kobayashi など）
@@ -32,14 +33,14 @@
   - kay_arXiv2017_kinetics400
   - Jhuang_ICCV2013_JHMDB21
 
-## 1.3. 探し方
+## 1.2. 探し方
 
 - できるかぎり，既存のものをコピーしましょう．手入力ではスペルミスなど人為エラーが入ってしまいます．
 - 手動の作成方法はネットで検索してください
 - 論文によっては正規の取得方法があります．下記参照．
 - ない場合もあります（BMVC など）．その場合は手動で作成．
 
-### 1.3.1. CVPR, ICCV, WACV
+### 1.2.1. CVPR, ICCV, WACV
 
 CVF open access の論文．ワークショップ論文も．
 
@@ -49,7 +50,7 @@ https://openaccess.thecvf.com/menu
 
 ![image](https://user-images.githubusercontent.com/4309772/201276011-39cedb17-a52f-4d0c-94d3-2bb49a28cbe9.png)
 
-### 1.3.2. arXiv
+### 1.2.2. arXiv
 
 https://arxiv.org
 
@@ -60,7 +61,7 @@ https://arxiv.org
 
 ![image](https://user-images.githubusercontent.com/4309772/201276130-0954f569-c764-4527-afa2-f6c0473c5c6c.png)
 
-### 1.3.3. IEEE 論文の場合
+### 1.2.3. IEEE 論文の場合
 
 T-PAMI，T-ICP など．CVPR などもある．
 
@@ -70,7 +71,7 @@ https://ieeexplore.ieee.org
 
 ![image](https://user-images.githubusercontent.com/4309772/201276173-1c8985de-774b-45bc-ad0b-cc9404fa8315.png)
 
-### 1.3.4. Springer 論文の場合
+### 1.2.4. Springer 論文の場合
 
 IJCV, ECCV など
 
@@ -82,7 +83,7 @@ https://link.springer.com
 
 ![image](https://user-images.githubusercontent.com/4309772/201276226-7dda91a2-1cee-453b-bc7c-4aaf47f9ec6e.png)
 
-### 1.3.5. DBLP
+### 1.2.5. DBLP
 
 検索する．CV 系論文ならだいたいある．
 
@@ -90,7 +91,7 @@ https://dblp.uni-trier.de
 
 ![image](https://user-images.githubusercontent.com/4309772/201276257-4663fbfb-f925-4220-9d74-569a76eeb330.png)
 
-### 1.3.6. ACM digital library
+### 1.2.6. ACM digital library
 
 ACM MM など．その他の論文も検索すると出てくる．
 
@@ -98,13 +99,13 @@ https://dl.acm.org
 
 ![image](https://user-images.githubusercontent.com/4309772/201276297-04ea6463-aed2-4c89-9787-9351e64599ed.png)
 
-### 1.3.7. NIPS, NeurIPS の場合
+### 1.2.7. NIPS, NeurIPS の場合
 
 https://proceedings.neurips.cc
 
 ![image](https://user-images.githubusercontent.com/4309772/201276333-49c1829a-2734-47fd-b6aa-b7e61202cd7a.png)
 
-### 1.3.8. BMVC の場合
+### 1.2.8. BMVC の場合
 
 DBLP で探す．
 
@@ -122,7 +123,7 @@ month = {November},
 }
 ```
 
-### 1.3.9. web の記事
+### 1.2.9. web の記事
 
 ```bibtex
 @misc{amazongo_times2018,
@@ -138,3 +139,15 @@ year={2018},
 ```
 
 実際に表示されるのは author, title, year, month, note
+
+### 1.2.10. github リポジトリ
+
+```bibtex
+@misc{Wu_github2019_Detectron2,
+  author       = {Yuxin Wu and Alexander Kirillov and Francisco Massa and
+                  Wan-Yen Lo and Ross Girshick},
+  howpublished = {\url{https://github.com/facebookresearch/detectron2}},
+  title        = {Detectron2},
+  year         = {2019}
+}
+```
