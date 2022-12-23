@@ -12,6 +12,9 @@
     - [1.2.8. BMVC の場合](#128-bmvc-の場合)
     - [1.2.9. web の記事](#129-web-の記事)
     - [1.2.10. github リポジトリ](#1210-github-リポジトリ)
+    - [1.2.11 AAAI](#1211-aaai)
+    - [1.2.12 ICMLなど（PMLR）](#1212-icmlなどpmlr)
+    - [1.2.13 ICLRなど（openreview）](#1213-iclrなどopenreview)
 
 # 1. 論文執筆用 BiBTeX エントリ
 
