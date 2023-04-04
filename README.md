@@ -25,6 +25,13 @@
 - lab-paper.bib：研究室で発表した論文
 - \*\*\*.bib：その他論文
 
+論文に取り込むときには`build/all.bib`を使ってください．
+
+- GitHub Actionsで，push時に`cat *.bib > build/all.bib`で生成している．
+- アクセストークンを使っているので，有効期限が切れたら設定し直す
+  - 個人設定のSettings->Developer settings->Personal access tokensでtoken生成
+  - リポジトリのSettings->Secrets and variables->Actionsでtokenをsecretsとして登録
+
 ### 1.1.1. BibTeX エントリの書き方
 
 - 以下をアンダースコアでつなげる
@@ -175,5 +182,3 @@ https://proceedings.mlr.press/
 https://openreview.net/group?id=ICLR.cc
 
 ![image](https://user-images.githubusercontent.com/4309772/209267303-db95fe9a-13dd-4715-b831-40ef8dd9a05f.png)
-
-
