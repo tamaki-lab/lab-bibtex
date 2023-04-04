@@ -1,0 +1,17 @@
+name: combine all bibtex files
+on: push
+jobs:
+  greet:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+        with:
+          token: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
+      - run: |
+          mkdir -p build/
+          cat *.bib > build/all.bib
+          git config user.name github-actions
+          git config user.email github-actions@github.com
+          git add build/
+          git commit -m "build all.bib"
+          git push
