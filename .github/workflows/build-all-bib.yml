@@ -14,4 +14,5 @@ jobs:
           git config user.email github-actions@github.com
           git add build/
           git commit -m "build all.bib"
+      - run: |
           git push
