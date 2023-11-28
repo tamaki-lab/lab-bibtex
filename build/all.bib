@@ -2020,6 +2020,80 @@
   volume  = {4},
   year    = {2012}
 }
+@inproceedings{Chen_ICML2020_SimCLR,
+  abstract  = {This paper presents SimCLR: a simple framework for contrastive learning of visual representations. We simplify recently proposed contrastive self-supervised learning algorithms without requiring specialized architectures or a memory bank. In order to understand what enables the contrastive prediction tasks to learn useful representations, we systematically study the major components of our framework. We show that (1) composition of data augmentations plays a critical role in defining effective predictive tasks, (2) introducing a learnable nonlinear transformation between the representation and the contrastive loss substantially improves the quality of the learned representations, and (3) contrastive learning benefits from larger batch sizes and more training steps compared to supervised learning. By combining these findings, we are able to considerably outperform previous methods for self-supervised and semi-supervised learning on ImageNet. A linear classifier trained on self-supervised representations learned by SimCLR achieves 76.5% top-1 accuracy, which is a 7% relative improvement over previous state-of-the-art, matching the performance of a supervised ResNet-50. When fine-tuned on only 1% of the labels, we achieve 85.8% top-5 accuracy, outperforming AlexNet with 100X fewer labels.},
+  author    = {Chen, Ting and Kornblith, Simon and Norouzi, Mohammad and Hinton, Geoffrey},
+  booktitle = {Proceedings of the 37th International Conference on Machine Learning},
+  editor    = {III, Hal Daumé and Singh, Aarti},
+  month     = {13--18 Jul},
+  pages     = {1597--1607},
+  pdf       = {http://proceedings.mlr.press/v119/chen20j/chen20j.pdf},
+  publisher = {PMLR},
+  series    = {Proceedings of Machine Learning Research},
+  title     = {A Simple Framework for Contrastive Learning of Visual Representations},
+  url       = {https://proceedings.mlr.press/v119/chen20j.html},
+  volume    = {119},
+  year      = {2020}
+}
+
+@inproceedings{He_CVPR2020_MoCo,
+  author    = {He, Kaiming and Fan, Haoqi and Wu, Yuxin and Xie, Saining and Girshick, Ross},
+  booktitle = {2020 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
+  doi       = {10.1109/CVPR42600.2020.00975},
+  number    = {},
+  pages     = {9726-9735},
+  title     = {Momentum Contrast for Unsupervised Visual Representation Learning},
+  volume    = {},
+  year      = {2020}
+}
+
+@inproceedings{He_CVPR2022_MAE,
+  author    = {He, Kaiming and Chen, Xinlei and Xie, Saining and Li, Yanghao and Dollár, Piotr and Girshick, Ross},
+  booktitle = {2022 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
+  doi       = {10.1109/CVPR52688.2022.01553},
+  number    = {},
+  pages     = {15979-15988},
+  title     = {Masked Autoencoders Are Scalable Vision Learners},
+  volume    = {},
+  year      = {2022}
+}
+
+@inproceedings{Pan_CVPR2021_VideoMoCo,
+  author    = {Pan, Tian and Song, Yibing and Yang, Tianyu and Jiang, Wenhao and Liu, Wei},
+  booktitle = {2021 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
+  doi       = {10.1109/CVPR46437.2021.01105},
+  number    = {},
+  pages     = {11200-11209},
+  title     = {VideoMoCo: Contrastive Video Representation Learning with Temporally Adversarial Examples},
+  volume    = {},
+  year      = {2021}
+}
+
+
+@inproceedings{Tong_NEURIPS2022_VideoMAE,
+  author    = {Tong, Zhan and Song, Yibing and Wang, Jue and Wang, Limin},
+  booktitle = {Advances in Neural Information Processing Systems},
+  editor    = {S. Koyejo and S. Mohamed and A. Agarwal and D. Belgrave and K. Cho and A. Oh},
+  pages     = {10078--10093},
+  publisher = {Curran Associates, Inc.},
+  title     = {VideoMAE: Masked Autoencoders are Data-Efficient Learners for Self-Supervised Video Pre-Training},
+  url       = {https://proceedings.neurips.cc/paper_files/paper/2022/file/416f9cb3276121c42eebb86352a4354a-Paper-Conference.pdf},
+  volume    = {35},
+  year      = {2022}
+}
+
+
+
+@inproceedings{Wang_VideoMAEv2_CVPR2023,
+  author    = {Wang, Limin and Huang, Bingkun and Zhao, Zhiyu and Tong, Zhan and He, Yinan and Wang, Yi and Wang, Yali and Qiao, Yu},
+  booktitle = {2023 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
+  doi       = {10.1109/CVPR52729.2023.01398},
+  number    = {},
+  pages     = {14549-14560},
+  title     = {VideoMAE V2: Scaling Video Masked Autoencoders with Dual Masking},
+  volume    = {},
+  year      = {2023}
+}
 @article{Aafaq_ACMSurvey2019_Video_captioning_survey,
   address    = {New York, NY, USA},
   articleno  = {115},
@@ -2512,38 +2586,23 @@
   year     = {2021}
 }
 
-@article{Schiappa_arXiv2022_Self-Supervised_Video_Survey,
-  author     = {Madeline C. Schiappa and
-                Yogesh S. Rawat and
-                Mubarak Shah},
-  bibsource  = {dblp computer science bibliography, https://dblp.org},
-  biburl     = {https://dblp.org/rec/journals/corr/abs-2207-00419.bib},
-  doi        = {10.48550/arXiv.2207.00419},
-  eprint     = {2207.00419},
-  eprinttype = {arXiv},
-  journal    = {CoRR},
-  timestamp  = {Wed, 06 Jul 2022 15:50:43 +0200},
-  title      = {Self-Supervised Learning for Videos: {A} Survey},
-  url        = {https://doi.org/10.48550/arXiv.2207.00419},
-  volume     = {abs/2207.00419},
-  year       = {2022}
-}
-
-@article{Schiappa_arXiv2022_video_Self-Supervised_Learning_survey,
-  author     = {Madeline C. Schiappa and
-                Yogesh S. Rawat and
-                Mubarak Shah},
-  bibsource  = {dblp computer science bibliography, https://dblp.org},
-  biburl     = {https://dblp.org/rec/journals/corr/abs-2207-00419.bib},
-  doi        = {10.48550/arXiv.2207.00419},
-  eprint     = {2207.00419},
-  eprinttype = {arXiv},
-  journal    = {CoRR},
-  timestamp  = {Wed, 06 Jul 2022 15:50:43 +0200},
-  title      = {Self-Supervised Learning for Videos: {A} Survey},
-  url        = {https://doi.org/10.48550/arXiv.2207.00419},
-  volume     = {abs/2207.00419},
-  year       = {2022}
+@article{Schiappa_ACMSurvey2022_Self-Supervised_Video_Survey,
+  address    = {New York, NY, USA},
+  articleno  = {288},
+  author     = {Schiappa, Madeline C. and Rawat, Yogesh S. and Shah, Mubarak},
+  doi        = {10.1145/3577925},
+  issn       = {0360-0300},
+  issue_date = {December 2023},
+  journal    = {ACM Comput. Surv.},
+  keywords   = {zero-shot learning, visual-language models, deep learning, video understanding, multimodal learning, Self-supervised learning, representation learning},
+  month      = {jul},
+  number     = {13s},
+  numpages   = {37},
+  publisher  = {Association for Computing Machinery},
+  title      = {Self-Supervised Learning for Videos: A Survey},
+  url        = {https://doi.org/10.1145/3577925},
+  volume     = {55},
+  year       = {2023}
 }
 
 @article{Selva_arXiv2022_Video_Trans_Survey,
@@ -2731,6 +2790,27 @@
   volume  = {126},
   year    = {2022}
 }
+@article{Zhang_arXiv2022_survey_MAE,
+  author     = {Chaoning Zhang and
+                Chenshuang Zhang and
+                Junha Song and
+                John Seon Keun Yi and
+                Kang Zhang and
+                In So Kweon},
+  bibsource  = {dblp computer science bibliography, https://dblp.org},
+  biburl     = {https://dblp.org/rec/journals/corr/abs-2208-00173.bib},
+  doi        = {10.48550/ARXIV.2208.00173},
+  eprint     = {2208.00173},
+  eprinttype = {arXiv},
+  journal    = {CoRR},
+  timestamp  = {Fri, 18 Nov 2022 15:40:46 +0100},
+  title      = {A Survey on Masked Autoencoder for Self-supervised Learning in Vision
+                and Beyond},
+  url        = {https://doi.org/10.48550/arXiv.2208.00173},
+  volume     = {abs/2208.00173},
+  year       = {2022}
+}
+
 @article{Zhu_arXiv2020_Action_Recognition_Survey,
   author     = {Yi Zhu and
                 Xinyu Li and
