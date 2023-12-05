@@ -1,4 +1,10 @@
-BIBFILES = action-recognition.bib augmentation.bib dataset-image.bib dataset-video.bib detection.bib federated-learning.bib generation.bib image-classification.bib image-segmentation.bib lab-paper.bib language.bib misc.bib optimizer.bib survey-paper.bib transformer.bib
 
-all: $(BIBFILES)
+all:
 	cat *.bib crossref/*.bib > build/all.bib
+
+test:
+	pdflatex test.tex
+	bibtex test
+	pdflatex test.tex
+clean:
+	rm -f test.aux test.aux test.bbl test.blg test.dvi test.fdb_latexmk test.fls test.log test.pdf
