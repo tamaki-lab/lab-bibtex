@@ -12,9 +12,12 @@
     - [1.2.8. BMVC の場合](#128-bmvc-の場合)
     - [1.2.9. web の記事](#129-web-の記事)
     - [1.2.10. github リポジトリ](#1210-github-リポジトリ)
-    - [1.2.11 AAAI](#1211-aaai)
-    - [1.2.12 ICMLなど（PMLR）](#1212-icmlなどpmlr)
-    - [1.2.13 ICLRなど（openreview）](#1213-iclrなどopenreview)
+    - [1.2.11. 1.2.11 AAAI](#1211-1211-aaai)
+    - [1.2.12. 1.2.12 ICMLなど（PMLR）](#1212-1212-icmlなどpmlr)
+    - [1.2.13. 1.2.13 ICLRなど（openreview）](#1213-1213-iclrなどopenreview)
+  - [1.3. bibtexエントリの作成方法](#13-bibtexエントリの作成方法)
+    - [1.3.1. 英語](#131-英語)
+    - [1.3.2. 日本語](#132-日本語)
 
 # 1. 論文執筆用 BiBTeX エントリ
 
@@ -54,7 +57,7 @@
 
 CVF open access の論文．ワークショップ論文も．
 
-https://openaccess.thecvf.com/menu
+<https://openaccess.thecvf.com/menu>
 
 論文の検索結果や，アブストラクトのページに bibitex のリンクがある．それをクリックすると表示される．
 
@@ -62,7 +65,7 @@ https://openaccess.thecvf.com/menu
 
 ### 1.2.2. arXiv
 
-https://arxiv.org
+<https://arxiv.org>
 
 - NG：「Export Bibtex Citation」では，通常の bst スタイルでは表示されないのでダメ
 - OK：「DBLP bibtex」をクリックして，DBLP へ行ってから bibtex をコピーする
@@ -77,7 +80,7 @@ T-PAMI，T-ICP など．CVPR などもある．
 
 IEEE eXplore から検索して，「cite this」をクリックし，bibtex をコピー
 
-https://ieeexplore.ieee.org
+<https://ieeexplore.ieee.org>
 
 ![image](https://user-images.githubusercontent.com/4309772/201276173-1c8985de-774b-45bc-ad0b-cc9404fa8315.png)
 
@@ -89,7 +92,7 @@ IJCV, ECCV など
 
 もしくは DBLP で探して bibtex をコピー
 
-https://link.springer.com
+<https://link.springer.com>
 
 ![image](https://user-images.githubusercontent.com/4309772/201276226-7dda91a2-1cee-453b-bc7c-4aaf47f9ec6e.png)
 
@@ -97,7 +100,7 @@ https://link.springer.com
 
 検索する．CV 系論文ならだいたいある．
 
-https://dblp.uni-trier.de
+<https://dblp.uni-trier.de>
 
 ![image](https://user-images.githubusercontent.com/4309772/201276257-4663fbfb-f925-4220-9d74-569a76eeb330.png)
 
@@ -105,13 +108,13 @@ https://dblp.uni-trier.de
 
 ACM MM など．その他の論文も検索すると出てくる．
 
-https://dl.acm.org
+<https://dl.acm.org>
 
 ![image](https://user-images.githubusercontent.com/4309772/201276297-04ea6463-aed2-4c89-9787-9351e64599ed.png)
 
 ### 1.2.7. NIPS, NeurIPS の場合
 
-https://proceedings.neurips.cc
+<https://proceedings.neurips.cc>
 
 ![image](https://user-images.githubusercontent.com/4309772/201276333-49c1829a-2734-47fd-b6aa-b7e61202cd7a.png)
 
@@ -119,7 +122,7 @@ https://proceedings.neurips.cc
 
 DBLP で探す．
 
-https://dblp.org/db/conf/bmvc/index.html
+<https://dblp.org/db/conf/bmvc/index.html>
 
 ただし最新のものは DBLP にはないので以下のテンプレートを使用．year と month は修正すること．
 
@@ -162,23 +165,39 @@ year={2018},
 }
 ```
 
+### 1.2.11. 1.2.11 AAAI
 
-
-### 1.2.11 AAAI
-
-https://aaai.org/Library/conferences-library.php
+<https://aaai.org/Library/conferences-library.php>
 
 ![image](https://user-images.githubusercontent.com/4309772/209266872-0c382309-a94d-4219-80e1-330c0623458b.png)
 
-### 1.2.12 ICMLなど（PMLR）
+### 1.2.12. 1.2.12 ICMLなど（PMLR）
 
-https://proceedings.mlr.press/
+<https://proceedings.mlr.press/>
 
 ![image](https://user-images.githubusercontent.com/4309772/209267124-3148ced3-bfe4-4891-b00f-3a9f9cbbe29c.png)
 
+### 1.2.13. 1.2.13 ICLRなど（openreview）
 
-### 1.2.13 ICLRなど（openreview）
-
-https://openreview.net/group?id=ICLR.cc
+<https://openreview.net/group?id=ICLR.cc>
 
 ![image](https://user-images.githubusercontent.com/4309772/209267303-db95fe9a-13dd-4715-b831-40ef8dd9a05f.png)
+
+## 1.3. bibtexエントリの作成方法
+
+### 1.3.1. 英語
+
+種類は，ジャーナルならarticle，国際会議ならinproceedingsを利用．BMVCの例・テンプレートを参照．
+
+### 1.3.2. 日本語
+
+pbibtexなら日本語エントリにyomiを追加すればOK．
+
+```bibtex
+ @inproceedings{Hashiguchi_MIRU2024_TAL,
+  author = {橋口 凌大 and 玉木 徹},
+  yomi    = {Ryota Hasigichi and Toru Tamaki},
+  title     = {動作区間検出データセットの動作区間長に応じたノイズ除去},
+  booktitle = {MIRU2024},
+  year      = {2024}
+```
