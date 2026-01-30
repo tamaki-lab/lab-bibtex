@@ -1,3 +1,29 @@
+@inproceedings{Ding_MIRU2025_Badminton_Captioning,
+  author    = {丁 寧 and 藤井 慶輔 and 玉木 徹},
+  booktitle = {第28回画像の認識・理解シンポジウム（MIRU2025）},
+  title     = {戦術理解に向けたバドミントン映像のマルチスケールキャプショニング},
+  year      = {2025},
+  yomi      = {Ning Ding and Keisuke Fujii and Toru Tamaki}
+}
+
+@inproceedings{Ding_MMSports2025_Shot2Tactic_Caption,
+  abstract  = {Tactical understanding in badminton involves interpreting not only individual actions but also how tactics are dynamically executed over time. In this paper, we propose Shot2Tactic-Caption, a novel framework for semantic and temporal multi-scale video captioning in badminton, capable of generating shot-level captions that describe individual actions and tactic-level captions that capture how these actions unfold over time within a tactical execution. We also introduce the Shot2Tactic-Caption Dataset, the first badminton captioning dataset containing 5,494 shot captions and 544 tactic captions. \% Shot2Tactic-Caption adopts a dual-branch design, with both branches including a visual encoder, a spatio-temporal Transformer encoder, and a Transformer-based decoder to generate shot and tactic captions. To support tactic captioning, we additionally introduce a Tactic Unit Detector that identifies valid tactic units, tactic types, and tactic states (e.g., Interrupt, Resume). For tactic captioning, we further incorporate a shot-wise prompt-guided mechanism, where the predicted tactic type and state are embedded as prompts and injected into the decoder via cross-attention. The shot-wise prompt-guided mechanism enables our system not only to describe successfully executed tactics but also to capture tactical executions that are temporarily interrupted and later resumed. \% Experimental results demonstrate the effectiveness of our framework in generating both shot and tactic captions. Ablation studies show that the ResNet50-based spatio-temporal encoder outperforms other variants, and that shot-wise prompt structuring leads to more coherent and accurate tactic captioning.},
+  address   = {New York, NY, USA},
+  author    = {Ding, Ning and Fujii, Keisuke and Tamaki, Toru},
+  booktitle = {Proceedings of the 8th International ACM Workshop on Multimedia Content Analysis in Sports},
+  doi       = {10.1145/3728423.3759408},
+  isbn      = {9798400711985},
+  keywords  = {datasets, racket sports, sports video analysis, video captioning},
+  location  = {Dublin, Ireland},
+  numpages  = {9},
+  pages     = {105-113},
+  publisher = {Association for Computing Machinery},
+  series    = {MMSports '25},
+  title     = {Shot2Tactic-Caption: Multi-Scale Captioning of Badminton Videos for Tactical Understanding},
+  url       = {https://doi.org/10.1145/3728423.3759408},
+  year      = {2025}
+}
+
 @inproceedings{Ding_SSII2024,
   author    = {丁 寧 and 武田 一哉 and Jin Wenhui and Bei Yingjiu and 藤井 慶輔},
   booktitle = {SSII2024},
@@ -6,21 +32,19 @@
   yomi      = {Ning Ding and K Takeda and Jin Wenhui and Bei Yingjiu and Y Fujii}
 }
 
+@inproceedings{Fukuzawa_MIRU2025_VideoMAE_Static_Dynamic,
+  author    = {福沢 匠 and 丁 寧 and 玉木 徹},
+  booktitle = {第28回画像の認識・理解シンポジウム（MIRU2025）},
+  title     = {動作認識のためのVideoMAE特徴量の動的表現と静的表現の分離},
+  year      = {2025},
+  yomi      = {Takumi Fukuzawa and Ning Ding and Toru Tamaki}
+}
+
 @inproceedings{Fukuzawa_MMM2025_Zero_shot,
   address   = {Singapore},
-  author    = {Fukuzawa, Takumi
-               and Hara, Kensho
-               and Kataoka, Hirokatsu
-               and Tamaki, Toru},
+  author    = {Fukuzawa, Takumi and Hara, Kensho and Kataoka, Hirokatsu and Tamaki, Toru},
   booktitle = {MultiMedia Modeling},
-  editor    = {Ide, Ichiro
-               and Kompatsiaris, Ioannis
-               and Xu, Changsheng
-               and Yanai, Keiji
-               and Chu, Wei-Ta
-               and Nitta, Naoko
-               and Riegler, Michael
-               and Yamasaki, Toshihiko},
+  editor    = {Ide, Ichiro and Kompatsiaris, Ioannis and Xu, Changsheng and Yanai, Keiji and Chu, Wei-Ta and Nitta, Naoko and Riegler, Michael and Yamasaki, Toshihiko},
   isbn      = {978-981-96-2071-5},
   pages     = {366--379},
   publisher = {Springer Nature Singapore},
@@ -36,6 +60,13 @@
   yomi      = {Takumi Fukuzawa and Kensho Hara and Hirokatsu Kataoka and Toru Tamaki}
 }
 
+@inproceedings{Fukuzawa_ViEW2025_Token_Pruning_Action,
+  author    = {福沢 匠 and 丁 寧 and 玉木 徹},
+  booktitle = {ビジョン技術の実利用ワークショップ（ViEW2025）},
+  title     = {動作認識におけるトークン削減を用いた背景バイアス抑制と高速化},
+  year      = {2025},
+  yomi      = {Takumi Fukuzawa and Ning Ding and Toru Tamaki}
+}
 @inproceedings{Hashiguchi_2022_ACCVW_MSCA,
   author    = {Hashiguchi, Ryota and Tamaki, Toru},
   booktitle = {Proceedings of the Asian Conference on Computer Vision (ACCV) Workshops},
@@ -47,8 +78,7 @@
 }
 
 @article{Hashiguchi_arxiv2022_MSCA,
-  author     = {Ryota Hashiguchi and
-                Toru Tamaki},
+  author     = {Ryota Hashiguchi and Toru Tamaki},
   bibsource  = {dblp computer science bibliography, https://dblp.org},
   biburl     = {https://dblp.org/rec/journals/corr/abs-2204-00452.bib},
   doi        = {10.48550/arXiv.2204.00452},
@@ -56,8 +86,7 @@
   eprinttype = {arXiv},
   journal    = {CoRR},
   timestamp  = {Wed, 06 Apr 2022 14:29:31 +0200},
-  title      = {Vision Transformer with Cross-attention by Temporal Shift for Efficient
-                Action Recognition},
+  title      = {Vision Transformer with Cross-attention by Temporal Shift for Efficient Action Recognition},
   url        = {https://doi.org/10.48550/arXiv.2204.00452},
   volume     = {abs/2204.00452},
   year       = {2022}
@@ -80,12 +109,57 @@
   url           = {https://arxiv.org/abs/2409.18408},
   year          = {2024}
 }
+
+@inproceedings{Hori_GCCE2025_STAD_query_matching,
+  author    = {Hori, Shimon and Tamaki, Toru},
+  booktitle = {2025 IEEE 14th Global Conference on Consumer Electronics (GCCE)},
+  doi       = {10.1109/GCCE65946.2025.11275351},
+  keywords  = {Object detection;Detectors;Feature extraction;Decoding;Consumer electronics;spatio-temporal action detection;object detection;DETR;object query;query matching},
+  number    = {},
+  pages     = {1505-1506},
+  title     = {Query matching for spatio-temporal action detection with query-based object detector},
+  volume    = {},
+  year      = {2025}
+}
+
+@inproceedings{Hori_MIRU2025_Spatiotemporal_Action_Detection,
+  author    = {堀 史門 and 丁 寧 and 玉木 徹},
+  booktitle = {第28回画像の認識・理解シンポジウム（MIRU2025）},
+  title     = {物体検出器の拡張による人物・物体・画像の相互関係を考慮した時空間動作検出},
+  year      = {2025},
+  yomi      = {Shimon Hori and Ning Ding and Toru Tamaki}
+}
+
 @inproceedings{Hori_SSII2024_STAD_query_matching,
   author    = {堀 史門 and 大見 一樹 and 玉木 徹},
   booktitle = {SSII2024},
   title     = {フレーム間のクエリマッチングを用いた物体検出モデルの時空間動作検出への拡張},
   year      = {2024},
   yomi      = {Shimon Hori and Kazuki Omi and Toru Tamaki}
+}
+
+@inproceedings{Hori_ViEW2025_Interaction_Aware_Action,
+  author    = {堀 史門 and 丁 寧 and 玉木 徹},
+  booktitle = {ビジョン技術の実利用ワークショップ（ViEW2025）},
+  title     = {相互作用検出を統合した時空間動作検出},
+  year      = {2025},
+  yomi      = {Shimon Hori and Ning Ding and Toru Tamaki}
+}
+
+@inproceedings{Hosoya_MIRU2025_OpenVocabulary_Action,
+  author    = {細谷 優 and 玉木 徹},
+  booktitle = {第28回画像の認識・理解シンポジウム（MIRU2025）},
+  title     = {特徴量シフトを用いたクエリベースのOpen-Vocabulary時空間動作検出},
+  year      = {2025},
+  yomi      = {Yu Hosoya and Toru Tamaki}
+}
+
+@inproceedings{Hosoya_ViEW2024_OpenVocabulary_Action,
+  author    = {細谷 優 and 堀 史門 and 玉木 徹},
+  booktitle = {ビジョン技術の実利用ワークショップ（ViEW2024）},
+  title     = {特徴量シフトを用いたクエリベースのOpen-Vocabulary時空間動作検出},
+  year      = {2024},
+  yomi      = {Yu Hosoya and Shimon Hori and Toru Tamaki}
 }
 
 @inproceedings{Kamiya_IWFCV2024_Multi_Model,
@@ -96,6 +170,22 @@
   url          = {https://www.scitepress.org/Link.aspx?doi=10.5220/0012310400003660},
   url          = {https://arxiv.org/abs/2401.14675},
   year         = {2024}
+}
+
+@inproceedings{Kamiya_MIRU2025_ddCRP_MeMViT,
+  author    = {神谷 広大 and 玉木 徹},
+  booktitle = {第28回画像の認識・理解シンポジウム（MIRU2025）},
+  title     = {オンライン動画学習のためのdd-CRPを用いた時間的マルチスケールMeMViT},
+  year      = {2025},
+  yomi      = {Kodai Kamiya and Toru Tamaki}
+}
+
+@inproceedings{Kamiya_ViEW2024_Multiscale_MeMViT,
+  author    = {神谷 広大 and 志水 秀熙 and 玉木 徹},
+  booktitle = {ビジョン技術の実利用ワークショップ（ViEW2024）},
+  title     = {オンライン動画学習のための時間的マルチスケールMeMViT},
+  year      = {2024},
+  yomi      = {Kodai Kamiya and Hideki Shimizu and Toru Tamaki}
 }
 
 @inproceedings{Kato_GCCE2024_online_video,
@@ -143,6 +233,14 @@
   year      = {2022}
 }
 
+@inproceedings{Kobayashi_SSII2025_Static_Dynamic_Decoupling,
+  author    = {小林 優斗 and 丁 寧 and 玉木 徹},
+  booktitle = {第31回画像センシングシンポジウム（SSII2025）},
+  title     = {動作認識における静的バイアス低減のための静的情報と動的情報の分離},
+  year      = {2025},
+  yomi      = {Yuto Kobayashi and Ning Ding and Toru Tamaki}
+}
+
 @misc{Mizuno_arXiv2024_VideoSegmentation,
   archiveprefix = {arXiv},
   author        = {Tsubasa Mizuno and Toru Tamaki},
@@ -153,6 +251,26 @@
   year          = {2024}
 }
 
+@inproceedings{Mizuno_GCCE2025_ShiftVideoSegmentation,
+  author    = {Mizuno, Tsubasa and Tamaki, Toru},
+  booktitle = {2025 IEEE 14th Global Conference on Consumer Electronics (GCCE)},
+  doi       = {10.1109/GCCE65946.2025.11274584},
+  keywords  = {Image segmentation;Semantic segmentation;Consumer electronics;Videos;image segmentation;video segmentation;feature shift;object query;query matching},
+  number    = {},
+  pages     = {108-109},
+  title     = {Shifting and matching queries for video semantic segmentation},
+  volume    = {},
+  year      = {2025}
+}
+
+@inproceedings{Mizuno_MIRU2025_Hard_Prompt_Tuning,
+  author    = {水野 翼 and 丁 寧 and 玉木 徹},
+  booktitle = {第28回画像の認識・理解シンポジウム（MIRU2025）},
+  title     = {Hard Prompt Tuningを利用したZero-shot学習のためのカテゴリ名の自動最適化},
+  year      = {2025},
+  yomi      = {Tsubasa Mizuno and Ning Ding and Toru Tamaki}
+}
+
 @inproceedings{Mizuno_SSII2024_VideoSegmentation,
   author    = {水野 翼 and 玉木 徹},
   booktitle = {SSII2024},
@@ -161,22 +279,47 @@
   yomi      = {Tsubasa Mizuno and Toru Tamaki}
 }
 
-@article{Nitta_IEEE_Access_2024_captioning,
-  author  = {Nitta, Tomoya and Fukuzawa, Takumi and Tamaki, Toru},
-  doi     = {10.1109/ACCESS.2024.3506751},
-  journal = {IEEE Access},
-  number  = {},
-  pages   = {1-1},
-  title   = {Fine-grained length controllable video captioning with ordinal embeddings},
-  volume  = {},
-  year    = {2024}
+@inproceedings{Mizuno_ViEW2025_Zeroshot_Category_Optimization,
+  author    = {水野 翼 and 丁 寧 and 玉木 徹},
+  booktitle = {ビジョン技術の実利用ワークショップ（ViEW2025）},
+  title     = {Zero-shot学習のための動作認識データセットのカテゴリ名の自動最適化},
+  year      = {2025},
+  yomi      = {Tsubasa Mizuno and Ning Ding and Toru Tamaki}
 }
 
+@inproceedings{Murakawa_IWAIT2026_M3DDM,
+  author    = {Takuya Murakawa and Takumi Fukuzawa and Ning Ding and Toru Tamaki},
+  booktitle = {The International Workshop on Advanced Image Technology (IWAIT2026)},
+  location  = {Kaohsiung, Taiwan},
+  month     = {January},
+  title     = {M3DDM+: an improved video outpainting by a modified masking strategy},
+  year      = {2026}
+}
+
+@inproceedings{Murakawa_MIRU2025_M3DDM_Outpainting,
+  author    = {村川 卓也 and 丁 寧 and 玉木 徹},
+  booktitle = {第28回画像の認識・理解シンポジウム（MIRU2025）},
+  title     = {M3DDMによるvideo outpainting結果の改善方法の検討},
+  year      = {2025},
+  yomi      = {Takuya Murakawa and Ning Ding and Toru Tamaki}
+}
+
+
+@article{Nitta_IEEE_Access_2024_captioning,
+  author   = {Nitta, Tomoya and Fukuzawa, Takumi and Tamaki, Toru},
+  doi      = {10.1109/ACCESS.2024.3506751},
+  journal  = {IEEE Access},
+  keywords = {Decoding;Vectors;Earth Observing System;Training;Long short term memory;Data models;Web sites;Video on demand;Reviews;Reliability;Video captioning;length controllable generation;ordinal embedding},
+  number   = {},
+  pages    = {189667-189688},
+  title    = {Fine-Grained Length Controllable Video Captioning With Ordinal Embeddings},
+  volume   = {12},
+  year     = {2024}
+}
+
+
 @article{Nitta_IEICEED_2023_Object-ABN,
-  author  = {Tomoya Nitta and
-             Tsubasa Hirakawa and
-             Hironobu Fujiyoshi and
-             Toru Tamaki},
+  author  = {Tomoya Nitta and Tsubasa Hirakawa and Hironobu Fujiyoshi and Toru Tamaki},
   doi     = {10.1587/transinf.2022EDP7138},
   journal = {IEICE Transactions on Information and Systems},
   number  = {3},
@@ -227,10 +370,16 @@
 }
 
 @inproceedings{Omi_VISAPP2025_ActionTube,
-  author    = {Kazuki Omi and Jion Oshima and Toru Tamaki},
-  booktitle = {International Joint Conference on Computer Vision, Imaging and Computer Graphics Theory and Applications (VISAPP2025)},
-  title     = {Action tube generation by person query matching for spatio-temporal action detection},
-  year      = {2025}
+  author       = {Kazuki Omi and Jion Oshima and Toru Tamaki},
+  booktitle    = {Proceedings of the 20th International Joint Conference on Computer Vision, Imaging and Computer Graphics Theory and Applications - Volume 2: VISAPP},
+  doi          = {10.5220/0013089500003912},
+  isbn         = {978-989-758-728-3},
+  issn         = {2184-4321},
+  organization = {INSTICC},
+  pages        = {261-268},
+  publisher    = {SciTePress},
+  title        = {Action Tube Generation by Person Query Matching for Spatio-Temporal Action Detection},
+  year         = {2025}
 }
 
 @inproceedings{Oshima_MIRU2024_AVA_Query_Matching,
@@ -241,23 +390,34 @@
   yomi      = {Jion Oshima and Shimon Hori and Toru Tamaki}
 }
 
+@inproceedings{Oshima_SSII2025_RacketSport_HitDetection,
+  author    = {大島 慈温 and 玉木 徹 and 丁 寧},
+  booktitle = {第31回画像センシングシンポジウム（SSII2025）},
+  title     = {姿勢情報を用いたラケットスポーツ映像中のヒット時刻検出手法},
+  year      = {2025},
+  yomi      = {Jion Oshima and Toru Tamaki and Ning Ding}
+}
+
 @article{Otani_IEEEAccess2022_MPEG_JPEG,
-  author    = {Aoi Otani and
-               Ryota Hashiguchi and
-               Kazuki Omi and
-               Norishige Fukushima and
-               Toru Tamaki},
+  author    = {Aoi Otani and Ryota Hashiguchi and Kazuki Omi and Norishige Fukushima and Toru Tamaki},
   bibsource = {dblp computer science bibliography, https://dblp.org},
   biburl    = {https://dblp.org/rec/journals/access/OtaniHOFT22.bib},
   doi       = {10.1109/ACCESS.2022.3204755},
   journal   = {{IEEE} Access},
   pages     = {94898--94907},
   timestamp = {Sun, 02 Oct 2022 15:26:28 +0200},
-  title     = {Performance Evaluation of Action Recognition Models on Low Quality
-               Videos},
+  title     = {Performance Evaluation of Action Recognition Models on Low Quality Videos},
   url       = {https://doi.org/10.1109/ACCESS.2022.3204755},
   volume    = {10},
   year      = {2022}
+}
+
+@inproceedings{Shimizu_MIRU2025_CLIP_Prompt_Adapter,
+  author    = {志水 秀熙 and 玉木 徹},
+  booktitle = {第28回画像の認識・理解シンポジウム（MIRU2025）},
+  title     = {CLIPによる複数データセット学習のための共有・固有プロンプトとアダプタの同時学習},
+  year      = {2025},
+  yomi      = {Shuki Shimizu and Toru Tamaki}
 }
 
 @inproceedings{Shimizu_MVA2023_IV_ViT,
@@ -273,6 +433,51 @@
   year      = {2023}
 }
 
+@inproceedings{Shimizu_ViEW2024_CLIP_Prompt_Adapter,
+  author    = {志水 秀熙 and 玉木 徹},
+  booktitle = {ビジョン技術の実利用ワークショップ（ViEW2024）},
+  title     = {複数データセット学習のためのCLIPのプロンプト学習とアダプタの併用},
+  year      = {2024},
+  yomi      = {Shuki Shimizu and Toru Tamaki}
+}
+
+@inproceedings{Sugimoto_MVA2025_MoExDA,
+  author    = {Sugimoto, Takuya and Ding, Ning and Tamaki, Toru},
+  booktitle = {2025 19th International Conference on Machine Vision and Applications (MVA)},
+  doi       = {10.23919/MVA65244.2025.11175123},
+  keywords  = {Training;Bridges;Adaptation models;Machine vision;Computational efficiency},
+  number    = {},
+  pages     = {1-7},
+  title     = {MoExDA: Domain Adaptation for Edge-based Action Recognition},
+  url       = {https://ieeexplore.ieee.org/document/11175123},
+  volume    = {},
+  year      = {2025}
+}
+
+@inproceedings{Sugimoto_SSII2025_Edge_Moment_Adaptation,
+  author    = {杉本 拓也 and 丁 寧 and 玉木 徹},
+  booktitle = {第31回画像センシングシンポジウム（SSII2025）},
+  title     = {Edge検出を併用した動作認識と正規化モーメント交換によるドメイン適応},
+  year      = {2025},
+  yomi      = {Takuya Sugimoto and Ning Ding and Toru Tamaki}
+}
+
+@inproceedings{Sugiura_MIRU2025_Amodal_Person_Segmentation,
+  author    = {杉浦 大輝 and 玉木 徹},
+  booktitle = {第28回画像の認識・理解シンポジウム（MIRU2025）},
+  title     = {人物姿勢推定を用いたアモーダル人物セグメンテーション},
+  year      = {2025},
+  yomi      = {Taiki Sugiura and Toru Tamaki}
+}
+
+@inproceedings{Sugiura_ViEW2024_Amodal_Pose_Estimation,
+  author    = {杉浦 大輝 and 玉木 徹},
+  booktitle = {ビジョン技術の実利用ワークショップ（ViEW2024）},
+  title     = {アモーダルセグメンテーションを用いたオクルージョン下の人物姿勢推定},
+  year      = {2024},
+  yomi      = {Taiki Sugiura and Toru Tamaki}
+}
+
 @inproceedings{Sugiura_VISAPP2024_S3Aug,
   author       = {Taiki Sugiura and Toru Tamaki},
   booktitle    = {Proceedings of the 19th International Joint Conference on Computer Vision, Imaging and Computer Graphics Theory and Applications - Volume 2: VISAPP},
@@ -285,4 +490,32 @@
   title        = {S3Aug: Segmentation, Sampling, and Shift for Action Recognition},
   url          = {https://www.scitepress.org/Link.aspx?doi=10.5220/0012310400003660},
   year         = {2024}
+}
+
+@inproceedings{Takagi_MIRU2025_VLM_Annotation,
+  author    = {高木 洋徳 and 丁 寧 and 玉木 徹},
+  booktitle = {第28回画像の認識・理解シンポジウム（MIRU2025）},
+  title     = {VLMを用いた動画データセットに対する動作対象物体ラベルのアノテーション},
+  year      = {2025},
+  yomi      = {Hironori Takagi and Ning Ding and Toru Tamaki}
+}
+
+@inproceedings{Takama_CVPRW2025_LoRA,
+  author    = {Takama, Yusaku and Ding, Ning and Yokota, Tatsuya and Tamaki, Toru},
+  booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR) Workshops},
+  doi       = {10.1109/CVPRW67362.2025.00639},
+  keywords  = {Computer vision;Image recognition;Conferences;Subspace constraints;Null space;Computer architecture;Pattern recognition;lora;multi-domain learning;action recognition;null space;column space},
+  month     = {June},
+  pages     = {6419-6427},
+  title     = {Separating Shared and Domain-Specific LoRAs for Multi-Domain Learning},
+  url       = {https://openaccess.thecvf.com/content/CVPR2025W/DG-EBF/html/Takama_Separating_Shared_and_Domain-Specific_LoRAs_for_Multi-Domain_Learning_CVPRW_2025_paper.html},
+  year      = {2025}
+}
+
+@inproceedings{Takama_SSII2025_Shared_Specific_LoRA,
+  author    = {髙間 勇作 and 丁 寧 and 横田 達也 and 玉木 徹},
+  booktitle = {第31回画像センシングシンポジウム（SSII2025）},
+  title     = {マルチドメイン学習のための共有・固有LoRAの分離学習手法},
+  year      = {2025},
+  yomi      = {Yusaku Takama and Ning Ding and Tatsuya Yokota and Toru Tamaki}
 }
